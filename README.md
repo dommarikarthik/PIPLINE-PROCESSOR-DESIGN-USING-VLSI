@@ -16,7 +16,10 @@ MENTOR: NEELA SANTHOSH KUMAR
 
 # WHAT IS PIPLINE PROCESSOR DESIGN ?
 
-Pipelining in VLSI design divides a processor's operation into stages, allowing multiple instructions to be processed concurrently, significantly increasing performance. This technique decomposes sequential processes into smaller, manageable stages, each handling a specific part of an instruction's execution (fetch, decode, execute, etc.). By overlapping these stages, pipelining enables a new instruction to begin processing before the previous one is finished, leading to faster throughput. 
+Pipelining in VLSI design divides a processor's operation into stages, allowing multiple instructions to be processed concurrently, significantly increasing performance. This technique decomposes sequential processes into smaller, manageable stages, each handling a specific part of an instruction's execution (fetch, decode, execute, etc.). By overlapping these stages, pipelining enables a new instruction to begin processing before the previous one is finished, leading to faster throughput.
+
+![Image](https://github.com/user-attachments/assets/7b20362a-d4e1-4957-ae4d-85c3f398edaa)
+
 # Key Concepts:
 Stages:
 A pipeline is divided into stages, each performing a specific operation. 
@@ -41,4 +44,7 @@ Complexity:
 Designing and verifying pipelined processors can be more complex than simpler designs, requiring specialized tools and techniques. 
 # Example:
 A 5-stage pipeline for a RISC processor might include: Fetch, Decode, Execute, Memory Access, and Writeback. Each stage would handle its respective operation, and data would flow from one stage to the next in each clock cycle.
+# OUTPUT :-
+
+![Image](https://github.com/user-attachments/assets/207321fe-6b58-4c22-9d6e-8565b758208e)
 
